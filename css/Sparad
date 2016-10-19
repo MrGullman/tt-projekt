@@ -1,0 +1,77 @@
+.top-header-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 50px;
+  background: #000;
+  position: relative;
+  z-index: 1;
+}
+
+.top-header-h1 {
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+  letter-spacing: 4;
+  font-size: 1.6em;
+  align-self: center;
+  padding-right: 20%;
+}
+
+
+/************************
+HEADER NAV BAR
+************************/
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-bottom: 0;
+  padding: 0;
+  width: 100%
+}
+
+.top-nav .button {
+  /*display: flex;
+  align-items: flex-end;*/
+  width: 129px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.top-nav .button:last-child {
+  padding-right: 0px;
+}
+
+.button img {
+    position: relative;
+    width: 100%;
+    bottom: -4px;
+}
+
+.button p {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    bottom: 5px;
+    left: 22px;
+}
+
+.facebook {
+  align-self: center;
+  padding-left: 10%;
+  height: 65%;
+  width: 50px
+}
+
+<h1 class="top-header-h1">TIDSKRIFTERNAS TRYCKERI</h1>
+          <ul class="top-nav">
+            <li class="button"><img src="img/nav-button.svg"><p>Ladda UPP</p></li>
+            <li class="button"><img src="img/nav-button.svg"><p>Ladda NER</p></li>
+            <li class="button"><img src="img/nav-button.svg"><p>ICC Profiler</p></li>
+          </ul>
+          <img class="facebook" src="img/fb_f.svg">
